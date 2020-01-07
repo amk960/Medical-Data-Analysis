@@ -1,6 +1,6 @@
 library(ggplot2)
 
-load( 'midterm_mice.RData')
+load( 'mice.RData')
 attach(mtcars)
 par(mfrow=c(2,2))
 
