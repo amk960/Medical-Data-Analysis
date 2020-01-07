@@ -1,4 +1,4 @@
-load('midterm_fly.RData')
+load('fly.RData')
 mu_stressor1 <- mean(fly_stressor1)
 mu_stressor2 <- mean(fly_stressor2)
 effect_size_stressors <- mu_stressor2 - mu_stressor1
