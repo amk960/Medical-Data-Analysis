@@ -1,4 +1,4 @@
-a <- read.table(file = "q3_calcium_regression.tsv", header = TRUE, col.names = c("density", "metabolite"))
+a <- read.table(file = "calcium_regression.tsv", header = TRUE, col.names = c("density", "metabolite"))
 plot(a)
 #it is a scatter plot that indicates a negative correlation between density and metabolite
 #since this is visually linear, the best fitting line equation will be y = mx + c 
